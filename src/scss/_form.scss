@@ -1,0 +1,272 @@
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F7F7F7;
+}
+.null {
+    display: none;
+}
+.success {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    background-color: #f7f7f7;
+    height: calc(100vh - 90px);
+}
+.success__container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0fcf3;
+    width: 800px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #cdcdcd;
+    height: 80px;
+    justify-content: center;
+}
+.success__container-header {
+    margin-left: 20px;
+    color: #7BC480;
+}
+.success__container-message {
+    margin-left: 20px;
+}
+.about, .coordinator, .when {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    margin-top: 30px;
+    width: 1100px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #CDCDCD;
+}
+.when {
+    margin-bottom: 30px;
+}
+.about__title, .coordinator__title, .when__title {
+    border-bottom: 1px solid #CDCDCD;
+    width: 90%;
+    margin-top: 25px;
+}
+.about__title-header, .coordinator__title-header, .when__title-header {
+    color: #355990;
+    margin-bottom: 10px;
+}
+.about__content, .coordinator__content, .when__content {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 25px;
+}
+.label-title, .label-category, .label-payment, .label-reward, .label-email, .label-date, .label-duration {
+    color: #355990;
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+.label-description {
+    color: #355990;
+    width: 150px;
+    display: flex;
+    margin-top: 10px;
+}
+.about__content-title, .about__content-reward, .coordinator__content-email, .when__content-date, .when__content-duration {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.about__content-payment {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center; 
+    height: 40px;
+}
+.about__content-description {
+    display: flex;
+}
+.label-star {
+    color: #ff0000;
+}
+.input-title, .select-category, .input-email {
+    border: 1px solid #CDCDCD;
+    background-color: transparent;
+    width: 600px;
+    height: 40px;
+    font-size: 16px;
+    outline: none;
+    color: #000000;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+.input-reward, .input-duration {
+    border: 1px solid #CDCDCD;
+    background-color: transparent;
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    outline: none;
+    color: #000000;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.input-time {
+    border: 1px solid #CDCDCD;
+    background-color: transparent;
+    width: 90px;
+    height: 40px;
+    font-size: 16px;
+    outline: none;
+    color: #000000;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 8px 0 8px 5px;
+}
+.DayPickerInput input{
+    border: 1px solid #CDCDCD;
+    background-color: transparent;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    outline: none;
+    color: #000000;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.textarea-description {
+    border: 1px solid #CDCDCD;
+    background-color: transparent;
+    width: 600px;
+    height: 40px;
+    font-size: 16px;
+    outline: none;
+    color: #000000;
+    padding-left: 20px;
+    border-radius: 5px;
+    height: 150px;
+    resize: none;
+}
+.input-title::placeholder, .textarea-description::placeholder, .input-email::placeholder, .DayPickerInput input::placeholder, .input-reward::placeholder, .input-duration::placeholder {
+    color: #CDCDCD;
+}
+.about__content-descriptionCounter, .about__content-descriptionCategory {
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    color: #CDCDCD;
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.about__content-category {
+    position: relative;
+    display: flex;
+}
+.coordinator__content-category {
+    position: relative;
+    display: flex;
+    margin-bottom: 20px;
+}
+.select-category {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    color: #CDCDCD;
+ }
+.about__content-category::after, .coordinator__content-category::after {
+    content: '';
+    border-top: 10px solid #355990;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    top: 16px;
+    left: 715px;
+    pointer-events: none;
+}
+.select-category option {
+    background: #f0f0f0;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+.select-option-categories {
+    color: #000000;
+}
+.select-option {
+    color: #CDCDCD;
+}
+.label-radio {
+    position: relative;
+    cursor: pointer;
+    margin-right: 20px;
+    user-select: none;
+    padding-left: 25px;
+}
+.input-payment, .input-time12h {
+    display: none;
+}
+.circle {
+    width: 16px;
+    height: 16px;
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    top: 3px;
+    border: 1px solid #355990;
+    border-radius: 50%;
+}
+
+.label-radio input:checked + .circle::after {
+    content: '';
+    height: 10px;
+    width: 10px;
+    background-color: #355990;
+    position: absolute;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn_box {
+    color: #FFFFFF;
+    background-color: #FF8E1D;
+    width: 180px;
+    height: 50px;
+    border: 1px solid #FF8E1D;
+    cursor: pointer;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.errorTitle, .errorDate {
+    border: 1px solid #FFB2B2;
+    width: 180px;
+    heigth: 25px;
+    background-color: #FFB2B2;
+    color: #FFFFFF;
+    text-align: center;
+    margin-left: 5px;
+    border-radius: 5px;
+    position: relative;
+}
+.errorTitle::after {
+    border-right: 5px solid #FFB2B2;
+    border-top: 5px solid transparent; 
+    border-bottom: 5px solid transparent; 
+    content: '';
+    position: absolute;
+    right: 179px;
+    top: 6px;
+}
+.errorDate::after {
+    border-right: 5px solid #FFB2B2;
+    border-top: 5px solid transparent; 
+    border-bottom: 5px solid transparent; 
+    content: '';
+    position: absolute;
+    right: 169px;
+    top: 6px;
+}

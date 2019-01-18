@@ -1,0 +1,124 @@
+@media screen and (max-width: 930px) {
+    .movie__image {
+        margin-right: 50px;
+    }
+    .form__list {
+        width: 400px;
+    }
+    .searchBar {
+        width: 370px;
+    }
+    .input_box{
+	    width: 400px;
+    }
+    .newReleases__load-container {
+        width: 21%;
+    }
+}
+@media screen and (max-width: 870px) {
+    .movie{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .movie__image {
+        margin-right: 0px;
+        order: 2;
+    }
+    .header-sign {
+        font-size: 12px;
+    }
+    .movie__article {
+        order: 1;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 820px) {
+    .newReleases__load-container {
+        width: 45%;
+    }
+}
+@media screen and (max-width: 520px) {
+    .newReleases {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .newReleases__load-container {
+        width: 100%;
+    }
+    .newReleases__load {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 745px) {
+    .header {
+        align-items: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        flex-direction: column
+    }
+    .form__list {
+        width: 300px;
+        top: 190px;
+    }
+    .searchBar {
+        width: 270px;
+    }
+    .input_box{
+	    width: 300px;
+    }
+    .form {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .movie {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .cast {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .cast__actors {
+        justify-content: center;
+    }
+    .newReleases {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .header {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .form__list {
+        width: 280px;
+    }
+    .searchBar {
+        width: 250px;
+    }
+    .input_box{
+	    width: 280px;
+    }
+    .form {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .movie {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .cast {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .cast__actors {
+        justify-content: center;
+    }
+        .newReleases {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
